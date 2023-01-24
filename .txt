@@ -1,0 +1,112 @@
+Microsoft Windows [Version 10.0.19045.2486]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\DELL\Desktop\git course>code .
+
+C:\Users\DELL\Desktop\git course>git init
+Initialized empty Git repository in C:/Users/DELL/Desktop/git course/.git/
+
+C:\Users\DELL\Desktop\git course>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        apr.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\DELL\Desktop\git course>git add .
+
+C:\Users\DELL\Desktop\git course>git commit -m "hello sir"
+[master (root-commit) 878f8eb] hello sir
+ 1 file changed, 1 insertion(+)
+ create mode 100644 apr.txt
+
+C:\Users\DELL\Desktop\git course>git remote add origin https://github.com/hemanthjinnala7/learing-git.git
+
+C:\Users\DELL\Desktop\git course>git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 216 bytes | 72.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hemanthjinnala7/learing-git.git
+ * [new branch]      master -> master
+
+C:\Users\DELL\Desktop\git course>git push add master
+fatal: 'add' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\DELL\Desktop\git course>git add .
+
+C:\Users\DELL\Desktop\git course>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   code.cpp
+
+
+C:\Users\DELL\Desktop\git course>git commit -m "kids"
+[master 3d9409f] kids
+ 1 file changed, 1 insertion(+)
+ create mode 100644 code.cpp
+
+C:\Users\DELL\Desktop\git course>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 282 bytes | 282.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hemanthjinnala7/learing-git.git
+   878f8eb..3d9409f  master -> master
+
+C:\Users\DELL\Desktop\git course>git add .
+
+C:\Users\DELL\Desktop\git course>git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   phython.py
+
+
+C:\Users\DELL\Desktop\git course>git push origin master
+Everything up-to-date
+
+C:\Users\DELL\Desktop\git course>git commit -m " "
+Aborting commit due to empty commit message.
+
+C:\Users\DELL\Desktop\git course>git commit -m "phython"
+[master 1d940c7] phython
+ 1 file changed, 1 insertion(+)
+ create mode 100644 phython.py
+
+C:\Users\DELL\Desktop\git course>git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 320 bytes | 160.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/hemanthjinnala7/learing-git.git
+   3d9409f..1d940c7  master -> master
+
+C:\Users\DELL\Desktop\git course>git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hi.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\DELL\Desktop\git course>
+
+
+
+
+
+
